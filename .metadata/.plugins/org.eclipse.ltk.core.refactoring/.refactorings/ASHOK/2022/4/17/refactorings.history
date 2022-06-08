@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Exception.practice1.java&apos; to &apos;userdefinedexception1.java&apos;&#x0D;&#x0A;- Original project: &apos;ASHOK&apos;&#x0D;&#x0A;- Original element: &apos;Exception.practice1.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Exception.userdefinedexception1.java&apos;" description="Rename compilation unit &apos;practice1.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;Exception{practice1.java" name="userdefinedexception1.java" references="false" stamp="1650524475745" version="1.0"/>
+</session>

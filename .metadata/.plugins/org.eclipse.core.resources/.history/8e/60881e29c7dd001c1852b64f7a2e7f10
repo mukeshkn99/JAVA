@@ -1,0 +1,22 @@
+package Function;
+
+import java.util.ArrayList;
+
+public class Incrementsalary {
+
+	public static void main(String[] args) {
+		ArrayList<employee> al=new ArrayList<>();
+		populate(al);
+
+	}
+
+	private static void populate(ArrayList<employee> al) {
+		al.add(new employee("chinny",1000));
+		al.add(new employee("soniya",2000));
+		al.add(new employee("binny",5000));
+		al.add(new employee("kajol",3000));
+		al.add(new employee("tinny",10000));
+		
+	}
+
+}

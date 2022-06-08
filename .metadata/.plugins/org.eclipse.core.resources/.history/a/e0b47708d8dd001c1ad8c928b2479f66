@@ -1,0 +1,21 @@
+package Consumer;
+
+import java.util.ArrayList;
+
+public class printmovie {
+
+	public static void main(String[] args) {
+		ArrayList<movie> al=new ArrayList<>();
+		populate(al);
+		
+
+	}
+
+	private static void populate(ArrayList<movie> al) {
+		al.add(new movie("Vishwasam","AJITH","Hasan"));
+		al.add(new movie("kgf","yash","shetty"));
+		al.add(new movie("mersal","vijay","samantha"));
+		
+	}
+
+}

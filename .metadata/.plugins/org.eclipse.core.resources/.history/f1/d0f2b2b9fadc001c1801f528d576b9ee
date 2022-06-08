@@ -1,0 +1,11 @@
+package Predicates;
+
+public class emptyandnullrem {
+
+	public static void main(String[] args) {
+		String[] names={"raju"," ",null,"ravi"," ","durga",null};
+		
+
+	}
+
+}

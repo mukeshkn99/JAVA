@@ -1,0 +1,5 @@
+package Statc;
+
+public interface Interf {
+
+}

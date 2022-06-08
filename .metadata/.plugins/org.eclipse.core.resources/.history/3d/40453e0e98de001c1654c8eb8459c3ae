@@ -1,0 +1,18 @@
+package BiConsumer;
+
+import java.util.ArrayList;
+import java.util.function.BiFunction;
+
+public class incrementsalary {
+
+	public static void main(String[] args) {
+		BiFunction<String,Double,employee> f=(name,salary)->new employee(name,salary);
+		ArrayList<employee> al=new ArrayList<>();
+		al.add(new employee("hari",10000.00));
+		al.add(new employee("ravi",6000.00));
+		
+		BiConsumer<String,Double> c=(s,d)->
+
+	}
+
+}

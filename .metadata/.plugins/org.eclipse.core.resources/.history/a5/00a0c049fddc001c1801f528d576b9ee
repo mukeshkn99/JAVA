@@ -1,0 +1,13 @@
+package Predicates;
+
+import java.util.function.Predicate;
+
+public class Authentication {
+
+	public static void main(String[] args) {
+		Predicate<user> p=u->u.username.equals("durga")&&u.password.equals("java");
+		
+
+	}
+
+}

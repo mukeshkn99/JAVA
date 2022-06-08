@@ -1,0 +1,11 @@
+package BiFunction;
+
+public class salarycalcemp {
+
+	public static void main(String[] args) {
+		employee e=new employee(101,"hari","project");
+		timesheet t=new timesheet(101,25);
+
+	}
+
+}

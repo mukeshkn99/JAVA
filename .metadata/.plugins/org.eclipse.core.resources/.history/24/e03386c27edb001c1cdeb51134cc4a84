@@ -1,0 +1,19 @@
+package Collection;
+
+public class employee {
+int eno;
+String name;
+public employee(int eno, String name) {
+	super();
+	this.eno = eno;
+	this.name = name;
+}
+@Override
+public String toString() {
+	return " [eno=" + eno + ", name=" + name + "]";
+}
+employee e1=new employee(103,"mukesh");
+employee e2=new employee(101,"arun");
+employee e3=new employee(104,"kalai");
+
+}

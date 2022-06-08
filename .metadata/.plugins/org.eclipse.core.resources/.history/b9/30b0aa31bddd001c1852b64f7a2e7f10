@@ -1,0 +1,12 @@
+package Function;
+
+import java.util.function.Function;
+
+public class whitespace {
+
+	public static void main(String[] args) {
+	String s="Durga Software Solution";
+	Function<String,Integer> f=s->s.length()-s.replaceAll(" ", "").length();
+	}
+
+}

@@ -1,0 +1,16 @@
+package Supplier;
+
+import java.util.function.Supplier;
+
+public class randompwd {
+
+	public static void main(String[] args) {
+		Supplier<String> s=(){
+			Supplier<integer> d=()->(int)(Math.random()*10);
+			String symbols="ABCDEFGHIJKLMNOPQRSTUVWXYZ@#*";
+			Supplier<Character> c=()->(char)(Math.random()*29);
+		};
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package MethodReference;
+
+public class ThreadDemo {
+public void m1(){
+	System.out.println("method reference implementation");
+}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

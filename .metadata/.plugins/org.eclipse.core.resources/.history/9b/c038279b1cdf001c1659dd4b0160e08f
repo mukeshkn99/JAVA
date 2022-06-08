@@ -1,0 +1,13 @@
+package Predefined;
+
+import java.util.ArrayList;
+
+public class consumer {
+
+	public static void main(String[] args) {
+		ArrayList<employee> al=new ArrayList<>();
+		populate(al);
+
+	}
+
+}

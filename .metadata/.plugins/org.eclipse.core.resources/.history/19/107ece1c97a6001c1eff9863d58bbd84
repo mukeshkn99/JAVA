@@ -1,0 +1,15 @@
+package Arrays;
+
+public class addition {
+
+	public static void main(String[] args) {
+		int[][] a={
+				{1,1,1},
+				{1,1,1},
+				{1,1,1}
+		};
+		System.out.println("--Matrix A is--");
+
+	}
+
+}

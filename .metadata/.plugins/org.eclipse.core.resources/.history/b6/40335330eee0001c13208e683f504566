@@ -1,0 +1,14 @@
+package DateTime;
+
+import java.time.LocalDateTime;
+import java.time.Month;
+
+public class printdatetime {
+
+	public static void main(String[] args) {
+		LocalDateTime dt=LocalDateTime.of(1995, Month.APRIL,28,12,45);
+		System.out.println(dt);
+
+	}
+
+}

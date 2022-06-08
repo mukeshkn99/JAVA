@@ -1,0 +1,11 @@
+package collection;
+
+public enum Actors {
+	
+AJITH(50),VIJAY(40),SURYA(30);
+int salary;
+Actors(int salary){
+	this.salary=salary;
+}
+
+}

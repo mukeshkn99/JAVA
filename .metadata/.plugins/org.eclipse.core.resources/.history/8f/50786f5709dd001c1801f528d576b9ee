@@ -1,0 +1,38 @@
+package Predicates;
+
+import java.util.ArrayList;
+import java.util.function.Predicate;
+
+public class EmployeeManagement2 {
+
+	public static void main(String[] args) {
+	ArrayList<Employee> al=new ArrayList<>();
+	populate(al);
+	
+	Predicate<Employee> p1=emp->emp.designation.equals("manager");
+	display(p1,al);
+	
+	Predicate<Employee> p2=emp->emp.city.equals("bangalore");
+	display(p2,al);
+	
+	Predicate<Employee> p3=emp->emp.salary<20000;
+	display(p3,al);
+	
+	}
+
+	private static void display(Predicate<Employee> p1, ArrayList<Employee> al) {
+		for(Employee e:al){
+			if(p1.test(e)){
+				System.out.println(e);
+			}
+		}
+		
+	}
+
+	private static void populate(ArrayList<Employee> al) {
+		al.add(new Employee("kanesh","manager",10000.00,"chennai"));
+		al.add(new Employee("ramesh","manager",20000.00,"bangalore"));
+		al.add(new Employee("shrishail","ceo",100000.00,"mumbai"));
+	}
+
+}

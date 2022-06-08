@@ -1,0 +1,7 @@
+package Function;
+
+public class employee {
+String name;
+double salary;
+double total;
+}

@@ -1,0 +1,10 @@
+package Function;
+
+public class identitystatic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package Function;
+
+import java.util.ArrayList;
+
+public class GradeCalculate {
+
+	public static void main(String[] args) {
+		ArrayList<Student> al=new ArrayList<>();
+		populate(al);
+
+	}
+
+	private static void populate(ArrayList<Student> al) {
+		al.add(new Student("sunil",85));
+		al.add(new Student("binny",65));
+		al.add(new Student("chinny",40));
+		al.add(new Student("sunny",30));
+		
+	}
+
+}

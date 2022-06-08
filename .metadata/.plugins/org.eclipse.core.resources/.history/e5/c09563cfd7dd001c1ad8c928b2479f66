@@ -1,0 +1,10 @@
+package Consumer;
+
+public class printmovie {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

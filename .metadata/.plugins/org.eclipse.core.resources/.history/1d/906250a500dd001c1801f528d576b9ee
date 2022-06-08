@@ -1,0 +1,12 @@
+package Predicates;
+
+public class Validsoftare {
+
+	public static void main(String[] args) {
+		softwareengineer[] employee=new softwareengineer("sunny",50,false);
+		
+		Predicate<softwareengineer>
+
+	}
+
+}

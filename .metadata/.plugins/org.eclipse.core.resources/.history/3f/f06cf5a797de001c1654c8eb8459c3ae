@@ -1,0 +1,13 @@
+package BiConsumer;
+
+import java.util.function.BiFunction;
+
+public class incrementsalary {
+
+	public static void main(String[] args) {
+		BiFunction<String,Double,employee> f=(s,d)->new employee(name,salary);
+		
+
+	}
+
+}

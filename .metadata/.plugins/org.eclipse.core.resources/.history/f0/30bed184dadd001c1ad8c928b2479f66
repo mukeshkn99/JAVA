@@ -1,0 +1,21 @@
+package Consumer;
+
+import java.util.ArrayList;
+
+public class studentinfo {
+
+	public static void main(String[] args) {
+		ArrayList<Student> al=new ArrayList<>();
+        populate(al);
+	}
+
+	private static void populate(ArrayList<Student> al) {
+		al.add(new Student("sunil",80));
+		al.add(new Student("chinny",65));
+		al.add(new Student("sunny",70));
+		al.add(new Student("kinny",50));
+		al.add(new Student("binny",35));
+		
+	}
+
+}

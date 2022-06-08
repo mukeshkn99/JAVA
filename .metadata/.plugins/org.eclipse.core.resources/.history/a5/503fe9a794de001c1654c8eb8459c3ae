@@ -1,0 +1,13 @@
+package BiFunction;
+
+public class employee {
+int eno;
+String name;
+int dailywage;
+public employee(int eno, String name, String dailywage) {
+	super();
+	this.eno = eno;
+	this.name = name;
+	this.dailywage = dailywage;
+}
+}

@@ -1,0 +1,11 @@
+package Predicates;
+
+public class user {
+	String username;
+	String password;
+	public user() {
+		
+		
+		}
+
+}

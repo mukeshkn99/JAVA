@@ -1,0 +1,16 @@
+package DateTime;
+
+import java.time.LocalDate;
+import java.time.Period;
+
+public class birtdeathday {
+
+	public static void main(String[] args) {
+		LocalDate birtday=LocalDate.of(1999, 06,30);
+		LocalDate today=LocalDate.now();
+		Period p=Period.between(birtday, today);
+		System.out.printf("your age is %d years %d months  %d days is",p.getYears()+p.getMonths()+p.getDays());
+
+	}
+
+}

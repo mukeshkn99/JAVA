@@ -1,0 +1,11 @@
+package Predicates;
+
+public class StartsWithK {
+
+	public static void main(String[] args) {
+		String[] names={"sunny","Katrina","Kareena","chinni","malliga"};
+		
+
+	}
+
+}

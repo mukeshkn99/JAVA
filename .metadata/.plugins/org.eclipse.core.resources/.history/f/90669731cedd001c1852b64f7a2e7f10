@@ -1,0 +1,16 @@
+package Function;
+
+import java.util.Scanner;
+
+public class Authentication {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter user:");
+		String user=sc.next();
+		System.out.println("enter password:");
+		String pwd=sc.next();
+
+	}
+
+}

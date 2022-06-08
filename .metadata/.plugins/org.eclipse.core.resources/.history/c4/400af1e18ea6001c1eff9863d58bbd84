@@ -1,0 +1,14 @@
+package Arrays;
+
+public class twodarray {
+
+	public static void main(String[] args) {
+		int[][] worldpopulation={
+				{1234,8763,873,8329},
+				{878,983,3808,9234},
+				{878,8494,849}
+		};
+System.out.println("world population is:"+worldpopulation.length);
+	}
+
+}

@@ -1,0 +1,23 @@
+package Predicates;
+
+import java.util.function.Predicate;
+
+public class Joining {
+
+	public static void main(String[] args) {
+		int[] x={0,5,10,15,20,30};
+		Predicate<Integer> p1=I->I>10;
+		Predicate<Integer> p2=I->I%2==0;
+		System.out.println("given number is greaterthan 10 are:");
+		
+		
+	}
+	public void m1(Predicate<Integer> p,int[] x ){
+		for(int x1:x){
+			if(p.test(x1)){
+				System.out.println(x1);
+			}
+		}
+	}
+
+}

@@ -1,0 +1,11 @@
+package Predicates;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Predicates<Integer> p=I->I>10;
+		
+
+	}
+
+}

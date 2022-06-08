@@ -1,0 +1,13 @@
+package Predicates;
+
+import java.util.ArrayList;
+
+public class EmployeeManagement1 {
+
+	public static void main(String[] args) {
+		ArrayList<Employee> al=new ArrayList<>();
+		al.add(new Employee("mukesh","developer",10.000,"trichy"));
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package Anonymous;
+
+public class Test {
+
+	int x=888;
+	public static void main(String[] args) {
+		
+	}
+
+}

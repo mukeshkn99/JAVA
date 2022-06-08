@@ -1,0 +1,13 @@
+package BiFunction;
+
+public class timesheet {
+int eno;
+String name;
+int days;
+public timesheet(int eno, String name, int days) {
+	super();
+	this.eno = eno;
+	this.name = name;
+	this.days = days;
+}
+}

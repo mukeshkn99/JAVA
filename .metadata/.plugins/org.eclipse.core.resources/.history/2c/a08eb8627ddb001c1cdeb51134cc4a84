@@ -1,0 +1,10 @@
+package Collection;
+
+import java.util.ArrayList;
+
+public class ArrayListdemo {
+public static void main(String[] args){
+	ArrayList al=new ArrayList<>();
+
+}
+}

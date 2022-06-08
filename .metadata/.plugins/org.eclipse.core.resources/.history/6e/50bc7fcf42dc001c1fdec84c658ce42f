@@ -1,0 +1,9 @@
+package Default;
+
+public class Test implements Interf {
+
+	public static void main(String[] args) {
+
+	}
+
+}

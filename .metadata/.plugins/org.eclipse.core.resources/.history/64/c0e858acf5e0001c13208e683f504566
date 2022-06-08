@@ -1,0 +1,13 @@
+package DateTime;
+
+import java.time.ZoneId;
+
+public class zoneid {
+
+	public static void main(String[] args) {
+		ZoneId id=ZoneId.systemDefault();
+		System.out.println(id);
+
+	}
+
+}

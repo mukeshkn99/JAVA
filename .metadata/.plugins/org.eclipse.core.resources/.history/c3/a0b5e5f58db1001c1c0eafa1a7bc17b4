@@ -1,0 +1,13 @@
+package collection;
+
+import java.util.EnumSet;
+import java.util.Set;
+
+public class enums {
+
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package Default;
+
+public class MultipleInterf implements Left,Right{
+
+	public static void main(String[] args) {
+		MultipleInterf m=new MultipleInterf();
+
+	}
+
+}

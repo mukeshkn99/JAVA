@@ -1,0 +1,12 @@
+package Consumer;
+
+import java.util.ArrayList;
+
+public class studentinfo {
+
+	public static void main(String[] args) {
+		ArrayList<Student> al=new ArrayList<>();
+
+	}
+
+}

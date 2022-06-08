@@ -1,0 +1,7 @@
+package Predicates;
+
+public class softwareengineer {
+String name;
+int age;
+boolean ishavingGF;
+}

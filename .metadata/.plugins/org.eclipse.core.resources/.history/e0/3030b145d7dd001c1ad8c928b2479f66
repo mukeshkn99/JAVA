@@ -1,0 +1,7 @@
+package Consumer;
+
+public class movie {
+String name;
+String hero;
+String heroine;
+}

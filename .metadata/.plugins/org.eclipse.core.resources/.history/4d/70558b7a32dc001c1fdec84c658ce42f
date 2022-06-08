@@ -1,0 +1,22 @@
+package Anonymous;
+
+public class Test implements Interf{
+
+	int x=888;
+	public void m2(){
+		
+	}
+	Interf i=new Interf();
+	@Override
+	public void m1() {
+	int x=999;
+	System.out.println(this.x);
+		
+	};
+	
+	
+	public static void main(String[] args){
+		
+	}
+
+}
